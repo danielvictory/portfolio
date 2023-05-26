@@ -12,7 +12,7 @@ export const projectArray =[
         name: "circleUp",
         tech: "Python & Django, Materialize, MongoDB & Mongoose, Github, Heroku",
         image: "https://i.imgur.com/D1xlYjd.png",
-        desc:"A django web-app designed for focused discussion on a proposed subject.",
+        desc:"A django web-app designed for focused discussion on a proposed subject by a team of 3 over 4 days.",
         ghLink: "https://github.com/danielvictory/circleup",
         liveLink: "https://circleup0.herokuapp.com/",
     },
