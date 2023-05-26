@@ -8,17 +8,18 @@ import {projectArray} from '../helpers/ProjectArray'
 const Projects = () => {
   return (
     <div className="projects">
-        <holder id="projects" style={{
+        <p className="holder" id="projects" style={{
             display:"block",
             position:"relative",
             visibility:"hidden", 
             top: "-50px" 
-            }}></holder>
+            }}></p>
         <h1 style={{textAlign:"center", color:"#dfbe44", padding:"10px", margin:"0"}}>Personal Portfolio</h1>
         <div className="projects-container">
-            {projectArray.map((project) => {
+            {projectArray.map((project, idx) => {
                 return (
-                    <ProjectCard 
+                    <ProjectCard
+                        key= {idx}
                         name={project.name}
                         tech={project.tech}
                         image={project.image}

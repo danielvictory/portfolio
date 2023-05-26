@@ -8,12 +8,12 @@ import SettingsBackupRestoreIcon from "@material-ui/icons/Work";
 const Timeline = () => {
   return (
     <div style={{background:"#05668D"}}>
-        <holder id="timeline" style={{
+        <p className="holder" id="timeline" style={{
             display:"block",
             position:"relative",
             visibility:"hidden", 
             top: "-50px" 
-            }}></holder>
+            }}></p>
         <h1 style={{textAlign:"center", color:"#02C39A", padding:"10px", margin:"0"}}>Timeline</h1>
         <VerticalTimeline lineColor="#02C39A">
             <VerticalTimelineElement

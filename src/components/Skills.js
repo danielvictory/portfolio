@@ -5,12 +5,12 @@ import "../styles/Skills.css"
 const Skills = () => {
   return (
     <div className="skills">
-        <holder id="skills" style={{
+        <p className="holder" id="skills" style={{
             display:"block",
             position:"relative",
             visibility:"hidden", 
             top: "-50px" 
-            }}></holder>
+            }}></p>
         <h1>Languages, Libraries, and Frameworks! Oh My!</h1>
         <div className="skills-card-container">
             <div className="skill-card frontend">

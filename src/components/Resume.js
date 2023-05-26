@@ -7,12 +7,12 @@ import resume from '../assets/Daniel-Victory-Software-Engineer-Resume-2023.pdf'
 const Resume = () => {
   return (
     <div className="resume-container">
-        <holder id="resume" style={{
+        <p className="holder" id="resume" style={{
             display:"block",
             position:"relative",
             visibility:"hidden", 
             top: "-50px" 
-            }}></holder>
+            }}></p>
 
             <h1>Resume</h1>
             <div>
