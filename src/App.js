@@ -13,6 +13,7 @@ import Skills from "./components/Skills"
 import Projects from "./components/Projects"
 import Resume from "./components/Resume"
 import Timeline from "./components/Timeline"
+import Footer from "./components/Footer"
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Projects />
         <Resume />
         <Timeline />
+        <Footer />
       </div>
   );
 }
