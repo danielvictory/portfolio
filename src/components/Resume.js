@@ -16,12 +16,18 @@ const Resume = () => {
 
             <h1>Resume</h1>
             <div>
-                <a href={resume} download="Resume">
+                <a href={resume} download="Daniel-Victory-Software-Engineer-Resume-2023">
                     <button>Download Resume!</button>
                 </a>
             </div>
 
-        <iframe title="Daniel-Victory-embedded-resume" src="https://drive.google.com/file/d/1volCxa3eOs-gllZnSJSkwdaKPoUn_8qv/preview" width="640" height="480" allow="autoplay"></iframe>
+        <iframe 
+          title="Daniel-Victory-embedded-resume"
+          src="https://drive.google.com/file/d/1volCxa3eOs-gllZnSJSkwdaKPoUn_8qv/preview" 
+          width="640" 
+          height="480" 
+          allow="autoplay">
+        </iframe>
         
     </div>
   )
