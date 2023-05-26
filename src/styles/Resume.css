@@ -6,7 +6,7 @@
     justify-content: center;
     align-items: center;
 
-    padding: 20px;
+    /* padding: 20px; */
 
     background: #F0F3BD;
     color: #05668D;
@@ -26,4 +26,14 @@ button {
 
 iframe {
     height: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .resume-container {
+        height: 50vh;
+    }
+    
+    iframe {
+        display:none;
+    }
 }
