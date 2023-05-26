@@ -3,13 +3,14 @@ import styled from "styled-components"
 
 export const HeaderContainer = styled.nav`
     width: 100%;
-    height: ${(props) => (props.$navClick ? "220px" : "50px" )};
+    height: ${(props) => (props.$navClick ? "300px" : "50px" )};
     background-color: #02C39A;
     display: flex;
     flex-direction: column;
 
     position: sticky;
     top: 0;
+    z-index: 999;
 `
 
 export const NavContainer = styled.div`

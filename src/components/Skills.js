@@ -4,7 +4,13 @@ import "../styles/Skills.css"
 
 const Skills = () => {
   return (
-    <div id="skills">
+    <div className="skills">
+        <holder id="skills" style={{
+            display:"block",
+            position:"relative",
+            visibility:"hidden", 
+            top: "-50px" 
+            }}></holder>
         <h1>Languages, Libraries, and Frameworks! Oh My!</h1>
         <div className="skills-card-container">
             <div className="skill-card frontend">

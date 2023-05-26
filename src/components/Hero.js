@@ -11,6 +11,12 @@ import GitHubIcon from "@material-ui/icons/GitHub"
 const Hero = () => {
   return (
     <div className="hero-container">
+      <holder id="top" style={{
+            display:"block",
+            position:"relative",
+            visibility:"hidden", 
+            top: "-50px" 
+            }}></holder>
       <p className="greeting">Hey, hi, and hello!</p>
       <h2 className="greeting">I'm Daniel Victory.</h2>
       <div className="headshot">

@@ -47,7 +47,7 @@ const Header = () => {
             </InnerContainer>
             { navClick && (
                 <ExtendedContainer>
-                    <NavLinkOpen href="/" 
+                    <NavLinkOpen href="/#top" 
                         onClick={()=>{
                             setNavClick( (reveal) => !reveal )
                         }}
@@ -67,6 +67,11 @@ const Header = () => {
                             setNavClick( (reveal) => !reveal )
                         }}
                         >Resume</NavLinkOpen>
+                    <NavLinkOpen href="/#timeline" 
+                        onClick={()=>{
+                            setNavClick( (reveal) => !reveal )
+                        }}
+                        >Timeline</NavLinkOpen>
                 </ExtendedContainer>
             )}
         </HeaderContainer>
