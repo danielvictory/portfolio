@@ -58,3 +58,26 @@
 .project-card a:hover {
     font-weight: 800;
 }
+
+@media only screen and (max-width: 600px) {
+    .project-card {
+        width:50%;
+        padding: 15px;
+    }
+    
+    .project-card h1 {
+        font-size: 20px;
+    }
+
+    .project-card p {
+        font-size: 13px;
+    }
+    
+    .project-card img {
+        width: 50%
+    }
+    
+    .project-card-links {
+        width: 90%;
+    }
+}
