@@ -5,7 +5,7 @@ import "../styles/Hero.css"
 
 // Icons
 import LinkedInIcon from "@material-ui/icons/LinkedIn"
-import EmailIcon from "@material-ui/icons/Email"
+// import EmailIcon from "@material-ui/icons/Email"
 import GitHubIcon from "@material-ui/icons/GitHub"
 
 const Hero = () => {
@@ -31,9 +31,8 @@ const Hero = () => {
             <p className="statements">And as a person, I want to make a positive impact in the lives of anyone who touches my work as a user or collaborator.</p>
           </div>
         <div className="icons">
-          <EmailIcon />
-          <LinkedInIcon />
-          <GitHubIcon />
+          <a href="https://www.linkedin.com/in/daniel-victory/"><LinkedInIcon /></a>
+          <a href="https://github.com/danielvictory"><GitHubIcon /></a>
         </div>
       </div>
     </div>

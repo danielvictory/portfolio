@@ -68,7 +68,7 @@ export const NameAndIcons = styled.div`
 `
 
 export const Icons = styled.div`
-    padding: 0 0 0 10px;
+    padding: 0 0 0 6px;
 `
 
 export const NavLinkOpen = styled.a`

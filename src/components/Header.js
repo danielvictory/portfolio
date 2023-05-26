@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 
 // Icons
 import LinkedInIcon from "@material-ui/icons/LinkedIn"
-import EmailIcon from "@material-ui/icons/Email"
+// import EmailIcon from "@material-ui/icons/Email"
 import GitHubIcon from "@material-ui/icons/GitHub"
 
 // Styled
@@ -27,9 +27,8 @@ const Header = () => {
                     <NameAndIcons className="nameandicons">
                         Daniel Victory
                         <Icons id="icons">
-                            <EmailIcon />
-                            <LinkedInIcon />
-                            <GitHubIcon />
+                            <a style={{color:"#F0F3BD", padding: "0 5px 0 0" }} href="https://www.linkedin.com/in/daniel-victory/"><LinkedInIcon /></a>
+                            <a style={{color:"#F0F3BD" }} href="https://github.com/danielvictory"><GitHubIcon /></a>
                         </Icons>
                     </NameAndIcons>
                     {/* <NavLink to="/">Top</NavLink>
