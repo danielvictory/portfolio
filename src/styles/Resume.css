@@ -1,0 +1,29 @@
+.resume-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px;
+
+    background: #F0F3BD;
+    color: #05668D;
+}
+
+button {
+    background: #00A896;
+    color: #F0F3BD;
+
+    border: none;
+    border-radius: 5px;
+
+    padding: 15px 30px;
+
+    font-size: 20px;
+}
+
+iframe {
+    height: 100%;
+}
