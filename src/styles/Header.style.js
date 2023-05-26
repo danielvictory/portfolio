@@ -19,7 +19,7 @@ export const NavContainer = styled.div`
     justify-content: space-between;
     align-items: center;
 
-    padding: 0 10px;
+    padding: 0 0 0 10px;
 
     background-color: #00A896;
 
@@ -83,8 +83,8 @@ export const NavLinkOpen = styled.a`
 `
 
 export const OpenLinksButton = styled.button`
-    width: 30;
-    height: 50px;
+    /* width: 30px;
+    height: 50px; */
     background: none;
     border: none;
     /* color: white; */
