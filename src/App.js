@@ -4,20 +4,20 @@
 // Unicode: https://www.compart.com/en/unicode/
 
 import './App.css';
-import { BrowserRouter as Router } from "react-router-dom" // , Routes, Route
+// import { BrowserRouter as Router } from "react-router-dom" // , Routes, Route
 
 // components
 import Header from "./components/Header"
 import Hero from "./components/Hero"
+import Skills from "./components/Skills"
 
 function App() {
   return (
-    <Router>
       <div>
         <Header />
         <Hero />
+        <Skills />
       </div>
-    </Router>
   );
 }
 

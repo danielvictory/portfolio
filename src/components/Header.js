@@ -1,14 +1,20 @@
 import React, {useState} from 'react'
 
+// Icons
+import LinkedInIcon from "@material-ui/icons/LinkedIn"
+import EmailIcon from "@material-ui/icons/Email"
+import GitHubIcon from "@material-ui/icons/GitHub"
+
 // Styled
 import { HeaderContainer, 
     NavContainer, 
     InnerContainer, 
     ExtendedContainer,
     NameAndIcons,
+    Icons,
     // NavLink,
     NavLinkOpen,
-    OpenLinksButton } from "../styles/Header.style"
+    OpenLinksButton, } from "../styles/Header.style"
 
 const Header = () => {
 
@@ -19,8 +25,12 @@ const Header = () => {
             <InnerContainer>
                 <NavContainer>
                     <NameAndIcons className="nameandicons">
-                        <div id="top-name">Daniel Victory</div>
-                        <div id="icons">icons</div>
+                        Daniel Victory
+                        <Icons id="icons">
+                            <EmailIcon />
+                            <LinkedInIcon />
+                            <GitHubIcon />
+                        </Icons>
                     </NameAndIcons>
                     {/* <NavLink to="/">Top</NavLink>
                     <NavLink to="/#skills">Skills</NavLink>
@@ -37,10 +47,10 @@ const Header = () => {
             </InnerContainer>
             { navClick && (
                 <ExtendedContainer>
-                    <NavLinkOpen to="/">Top</NavLinkOpen>
-                    <NavLinkOpen to="/#skills">Skills</NavLinkOpen>
-                    <NavLinkOpen to="/#projects">Projects</NavLinkOpen>
-                    <NavLinkOpen to="/#resume">Resume</NavLinkOpen>
+                    <NavLinkOpen href="/">Top</NavLinkOpen>
+                    <NavLinkOpen href="/#skills">Skills</NavLinkOpen>
+                    <NavLinkOpen href="/#projects">Projects</NavLinkOpen>
+                    <NavLinkOpen href="/#resume">Resume</NavLinkOpen>
                 </ExtendedContainer>
             )}
         </HeaderContainer>

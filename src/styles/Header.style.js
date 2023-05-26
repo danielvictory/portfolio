@@ -1,10 +1,10 @@
 import styled from "styled-components"
-import { Link } from "react-router-dom"
+// import { Link } from "react-router-dom"
 
 export const HeaderContainer = styled.nav`
     width: 100%;
     height: ${(props) => (props.$navClick ? "220px" : "50px" )};
-    background-color: darkgreen;
+    background-color: #02C39A;
     display: flex;
     flex-direction: column;
 `
@@ -17,7 +17,7 @@ export const NavContainer = styled.div`
 
     padding: 0 10px;
 
-    background-color: red;
+    background-color: #00A896;
 
     /* @media (max-width: 700px) {
         justify-content: flex-end;
@@ -57,14 +57,25 @@ export const NameAndIcons = styled.div`
     /* width: 50%; */
     display: flex;
     justify-content: space-between;
+    align-items: center;
+
+    color: #F0F3BD;
+    font-family: "Source Code Pro", monospace;
 `
 
-export const NavLinkOpen = styled(Link)`
-    color: white;
-    text-decoration: none;
-    font-family: "Source Code Pro", monospace;
+export const Icons = styled.div`
+    padding: 0 0 0 10px;
+`
 
+export const NavLinkOpen = styled.a`
     margin: 10px;
+    
+    text-decoration: none;
+    
+    color: #F0F3BD;
+    font-family: "Source Code Pro", monospace;
+    
+    cursor: pointer;
 `
 
 export const OpenLinksButton = styled.button`
@@ -72,7 +83,7 @@ export const OpenLinksButton = styled.button`
     height: 50px;
     background: none;
     border: none;
-    color: white;
+    /* color: white; */
     font-size: 25px;
     cursor: pointer;
 
@@ -80,3 +91,4 @@ export const OpenLinksButton = styled.button`
         display: none;
     } */
 `
+
