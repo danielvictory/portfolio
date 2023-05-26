@@ -5,7 +5,8 @@ import { HeaderContainer,
     NavContainer, 
     InnerContainer, 
     ExtendedContainer,
-    NavLink,
+    NameAndIcons,
+    // NavLink,
     NavLinkOpen,
     OpenLinksButton } from "../styles/Header.style"
 
@@ -17,10 +18,14 @@ const Header = () => {
         <HeaderContainer $navClick={navClick}>
             <InnerContainer>
                 <NavContainer>
-                    <NavLink to="/">Top</NavLink>
+                    <NameAndIcons className="nameandicons">
+                        <div id="top-name">Daniel Victory</div>
+                        <div id="icons">icons</div>
+                    </NameAndIcons>
+                    {/* <NavLink to="/">Top</NavLink>
                     <NavLink to="/#skills">Skills</NavLink>
                     <NavLink to="/#projects">Projects</NavLink>
-                    <NavLink to="/#resume">Resume</NavLink>
+                    <NavLink to="/#resume">Resume</NavLink> */}
                     <OpenLinksButton 
                         onClick={()=>{
                             setNavClick( (reveal) => !reveal )

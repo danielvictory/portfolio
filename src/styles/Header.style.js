@@ -12,14 +12,17 @@ export const HeaderContainer = styled.nav`
 export const NavContainer = styled.div`
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+
+    padding: 0 10px;
+
     background-color: red;
 
-    @media (max-width: 700px) {
+    /* @media (max-width: 700px) {
         justify-content: flex-end;
         padding: 0 10px 0 0;
-    }
+    } */
 `
 
 export const InnerContainer = styled.div`
@@ -28,26 +31,32 @@ export const InnerContainer = styled.div`
     display: flex;
 `
 
-export const NavLink = styled(Link)`
-    color: white;
-    text-decoration: none;
-    font-family: "Source Code Pro", monospace;
+// export const NavLink = styled(Link)`
+//     color: white;
+//     text-decoration: none;
+//     font-family: "Source Code Pro", monospace;
 
-    margin: 10px;
+//     margin: 10px;
 
-    @media (max-width: 700px ) {
-        display: none;
-    }
-`
+//     @media (max-width: 700px ) {
+//         display: none;
+//     }
+// `
 
 export const ExtendedContainer = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
 
-    @media (min-width: 700px ) {
+    /* @media (min-width: 700px ) {
         display: none;
-    }
+    } */
+`
+
+export const NameAndIcons = styled.div`
+    /* width: 50%; */
+    display: flex;
+    justify-content: space-between;
 `
 
 export const NavLinkOpen = styled(Link)`
@@ -67,7 +76,7 @@ export const OpenLinksButton = styled.button`
     font-size: 25px;
     cursor: pointer;
 
-    @media (min-width: 700px ) {
+    /* @media (min-width: 700px ) {
         display: none;
-    }
+    } */
 `
