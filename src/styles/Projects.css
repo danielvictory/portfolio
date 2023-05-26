@@ -1,0 +1,60 @@
+.projects {
+    background: #05668D;
+    padding-bottom: 15px;;
+}
+
+.projects-container {
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* align-items: center; */
+
+    width: 90%;
+
+    margin: 0 auto;
+}
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 40%;
+    
+    padding: 0 10px 10px 0;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 15px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+    
+    background:#feffed;
+    color: #05668D;
+    
+    text-align: center;
+    
+}
+
+.project-card h1 {
+    margin: 0;
+}
+
+.project-card img {
+    width: 50%
+}
+
+.project-card-links {
+    width: 75%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.project-card a {
+    text-decoration: none;
+
+    cursor: pointer;
+}
+
+.project-card a:hover {
+    font-weight: 800;
+}

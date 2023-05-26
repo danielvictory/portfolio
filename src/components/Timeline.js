@@ -14,18 +14,18 @@ const Timeline = () => {
             visibility:"hidden", 
             top: "-50px" 
             }}></holder>
-        <h1 style={{textAlign:"center", color:"#dfbe44", padding:"10px", margin:"0"}}>Timeline</h1>
+        <h1 style={{textAlign:"center", color:"#02C39A", padding:"10px", margin:"0"}}>Timeline</h1>
         <VerticalTimeline lineColor="#02C39A">
             <VerticalTimelineElement
-                className="vertical-timeline-element--education"
+                className="vertical-timeline-element--work"
                 date="2023 Onward!"
-                iconStyle={{ background: "#02C39A", color: "#fff" }}
+                iconStyle={{ background: "#dfbe44", color: "#fff" }}
                 icon={<SchoolIcon />}
                 >
                 <h3 className="vertical-timeline-element-title">
                     My Next Opportunity!
                 </h3>
-                <p>Call me, beep me, if you wanna reach me.</p>
+                <p>Call me, beep me, if you wanna reach me. Front End, Back End, Full Stack, DevOps - I'm hungry to learn.</p>
             </VerticalTimelineElement> 
             <VerticalTimelineElement
                 className="vertical-timeline-element--education"
@@ -41,7 +41,7 @@ const Timeline = () => {
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
                 date="2022-2023"
-                iconStyle={{ background: "#02C39A", color: "#fff" }}
+                iconStyle={{ background: "#dfbe44", color: "#fff" }}
                 icon={<SettingsBackupRestoreIcon />}
                 >                
                 <h3 className="vertical-timeline-element-title">
@@ -52,7 +52,7 @@ const Timeline = () => {
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
                 date="2017-2022"
-                iconStyle={{ background: "#02C39A", color: "#fff" }}
+                iconStyle={{ background: "#dfbe44", color: "#fff" }}
                 icon={<WorkIcon />}
                 >                
                 <h3 className="vertical-timeline-element-title">
@@ -80,7 +80,7 @@ const Timeline = () => {
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
                 date="2012 - 2013"
-                iconStyle={{ background: "#02C39A", color: "#fff" }}
+                iconStyle={{ background: "#dfbe44", color: "#fff" }}
                 icon={<WorkIcon />}
                 >
                 <h3 className="vertical-timeline-element-title">
