@@ -56,8 +56,11 @@ const Timeline = () => {
                 icon={<WorkIcon />}
                 >                
                 <h3 className="vertical-timeline-element-title">
-                    Chevron (Hydroprocessing Licensing)
+                    Chevron
                 </h3>
+                <h6 className="vertical-timeline-element-title">
+                    (Hydroprocessing Design and Licensing)
+                </h6>
                 <h4 className="vertical-timeline-element-title">
                     Technical Service Engineer
                 </h4>
