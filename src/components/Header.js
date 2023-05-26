@@ -47,10 +47,26 @@ const Header = () => {
             </InnerContainer>
             { navClick && (
                 <ExtendedContainer>
-                    <NavLinkOpen href="/">Top</NavLinkOpen>
-                    <NavLinkOpen href="/#skills">Skills</NavLinkOpen>
-                    <NavLinkOpen href="/#projects">Projects</NavLinkOpen>
-                    <NavLinkOpen href="/#resume">Resume</NavLinkOpen>
+                    <NavLinkOpen href="/" 
+                        onClick={()=>{
+                            setNavClick( (reveal) => !reveal )
+                        }}
+                        >Top</NavLinkOpen>
+                    <NavLinkOpen href="/#skills" 
+                        onClick={()=>{
+                            setNavClick( (reveal) => !reveal )
+                        }}
+                        >Skills</NavLinkOpen>
+                    <NavLinkOpen href="/#projects" 
+                        onClick={()=>{
+                            setNavClick( (reveal) => !reveal )
+                        }}
+                        >Projects</NavLinkOpen>
+                    <NavLinkOpen href="/#resume" 
+                        onClick={()=>{
+                            setNavClick( (reveal) => !reveal )
+                        }}
+                        >Resume</NavLinkOpen>
                 </ExtendedContainer>
             )}
         </HeaderContainer>

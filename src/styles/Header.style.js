@@ -7,6 +7,9 @@ export const HeaderContainer = styled.nav`
     background-color: #02C39A;
     display: flex;
     flex-direction: column;
+
+    position: sticky;
+    top: 0;
 `
 
 export const NavContainer = styled.div`
