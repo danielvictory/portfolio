@@ -17,6 +17,7 @@ const Hero = () => {
         <img src="https://i.imgur.com/ktTSEu2.jpg" alt="headshot of Daniel Victory" />
       </div>
       <div className="hero-info">
+          <h2 className="lead-statement">Software Engineer. Chemical Engineer. Potential Comedian.</h2>
           <div className="statement-container">
             <p className="statements">Equally comfortable in front of a crowd or behind a computer, I bring years of acting, comedy, and chemical engineering to full-stack development.</p>
             <p className="statements">As a software engineer, I want to fix the frustrations I had as a simple user: make it work, make the work transparent, make the work look good.</p>

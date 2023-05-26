@@ -51,6 +51,10 @@ img {
     color: #dfbe44;
 }
 
+.lead-statement {
+    color: #dfbe44;
+}
+
 .statement-container {
     display: flex;
     justify-content: space-around;
@@ -66,4 +70,31 @@ img {
     /* padding: 15px; */
 
     text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .headshot {
+        height: 25%
+    }
+    
+    .greeting {
+        font-size: 20px;
+    }
+
+    .lead-statement {
+        text-align: center  ;
+
+        font-size: 12px;
+    }
+
+    .statement-container {
+        flex-direction: column;
+        justify-content: flex-end;
+
+    }
+
+    .statements {
+        width: 100%;
+        font-size: 14px;
+    }
 }
