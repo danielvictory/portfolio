@@ -83,8 +83,8 @@ export const NavLinkOpen = styled.a`
 `
 
 export const OpenLinksButton = styled.button`
-    /* width: 30px;
-    height: 50px; */
+    /* width: 5%; */
+    height: 100%;
     background: none;
     border: none;
     /* color: white; */
